@@ -14,27 +14,25 @@ F-key, I move it onto a ⌘ chord (e.g. references → ⌘R).
 
 ## IntelliJ shortcuts I restored
 
-| Shortcut | Does | IntelliJ habit |
+The keys that match what my hands already do in IntelliJ.
+
+| Shortcut | Does |
+|---|---|
+| ⇥ / ⇧⇥ | Indent / outdent selected lines |
+| ⌘[ / ⌘] | Navigate back / forward (history) |
+
+## New VS Code commands
+
+VS Code commands I moved onto different keys — either because their old key got
+claimed by the IntelliJ bindings above, or to avoid a function key.
+
+| Shortcut | Command | Why this key |
 |---|---|---|
-| ⇥ / ⇧⇥ | Indent / outdent selected lines | IntelliJ indents the selection with Tab |
-| ⌘[ / ⌘] | Navigate back / forward (history) | IntelliJ's back/forward jumps |
-| ⌘R | Go to references | Replaces the ⇧F12 default — avoiding the F-key |
-| ⇧⌘B | Toggle sidebar | — |
-| ⌃⇧⌘B | Run build task | Moved here to free up ⇧⌘B |
+| ⇧⌘B | Toggle sidebar | Moved off ⌘B |
+| ⌃⇧⌘B | Run build task | Moved off ⇧⌘B (which became the sidebar) |
+| ⌘R | Go to references | Moved off ⇧F12 — avoiding the F-key |
 
-## VS Code defaults I overwrote
-
-These are the `-command` entries in the file — they remove a default so the
-binding above can take over.
-
-| Shortcut | Was (VS Code default) | Freed for |
-|---|---|---|
-| ⌘[ | Outdent lines | Navigate back |
-| ⌘] | Indent lines | Navigate forward |
-| ⌘B | Toggle sidebar | (freed) |
-| ⇧⌘B | Run build task | Toggle sidebar |
-| ⌃- | Navigate back | (freed) |
-| ⌃⇧- | Navigate forward | (freed) |
+_Freed up along the way and now available: ⌘B, ⌃-, ⌃⇧-._
 
 ## Install on a new machine
 
