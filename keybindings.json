@@ -19,6 +19,11 @@
         "command": "-workbench.action.toggleSidebarVisibility"
     },
     {
+        "key": "cmd+b",
+        "command": "editor.action.revealDefinition",
+        "when": "editorTextFocus"
+    },
+    {
         "key": "shift+tab",
         "command": "editor.action.outdentLines",
         "when": "editorTextFocus && !editorReadonly"

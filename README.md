@@ -16,23 +16,25 @@ F-key, I move it onto a ⌘ chord (e.g. references → ⌘R).
 
 The keys that match what my hands already do in IntelliJ.
 
-| Shortcut | Does |
-|---|---|
-| ⇥ / ⇧⇥ | Indent / outdent selected lines |
-| ⌘[ / ⌘] | Navigate back / forward (history) |
+| Shortcut | Does | Why this Key
+|---|---|---|
+| ⌘B | Go to definition | IntelliJ muscle memory |
+| ⌘[ | Navigate back (history) | IntelliJ muscle memory |
+| ⌘] | Navigate forward (history) | IntelliJ muscle memory |
+| ⇥ | Indent selected lines | IntelliJ muscle memory |
+| ⇧⇥ | Outdent selected lines | IntelliJ muscle memory |
+| ⌘R | Go to references | Moved off IntelliJ ⇧F12 — avoiding F-key |
 
-## New VS Code commands
+## Moves to make way
 
-VS Code commands I moved onto different keys — either because their old key got
-claimed by the IntelliJ bindings above, or to avoid a function key.
+VS Code commands I moved onto different keys — to make way for my preferred keybindings.
 
 | Shortcut | Command | Why this key |
 |---|---|---|
 | ⇧⌘B | Toggle sidebar | Moved off ⌘B |
-| ⌃⇧⌘B | Run build task | Moved off ⇧⌘B (which became the sidebar) |
-| ⌘R | Go to references | Moved off ⇧F12 — avoiding the F-key |
-
-_Freed up along the way and now available: ⌘B, ⌃-, ⌃⇧-._
+| ⌃⇧⌘B | Run build task | Moved off ⇧⌘B |
+| ⌃- | Navigate back | (freed) |
+| ⌃⇧- | Navigate forward | (freed) |
 
 ## Install on a new machine
 
